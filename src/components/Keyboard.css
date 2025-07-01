@@ -1,0 +1,46 @@
+.keyboard {
+    margin-top: 30px;
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.keyboard-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+.key {
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background: linear-gradient(to top, #fefefe, #e0e0e0);
+    padding: 10px 14px;
+    margin: 2px;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    text-align: center;
+    min-width: 34px;
+    user-select: none;
+    transition: all 0.15s ease;
+}
+
+.key.wide {
+    min-width: 60px;
+}
+
+.key.active {
+    background-color: #3399ff !important;
+    color: white !important;
+    border-color: #3399ff !important;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.spacebar {
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 4px;
+}
